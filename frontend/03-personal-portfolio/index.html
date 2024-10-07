@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Seo Meta Tag -->
+    <meta
+      name="description"
+      content="A simple HTML only website with multiple pages for roadmap.sh frontend "
+    />
+    <meta name="keywords" content="frontend project, HTML, Roadmap.sh" />
+    <meta name="author" content="sumit Devs" />
+    <!-- Open Graph meta tag -->
+    <meta property="og:title" content="Basic HTML Website" />
+    <meta
+      property="og:description"
+      content="A simple HTML only website with multiple pages for roadmap.sh frontend"
+    />
+    <meta property="og:image" content="image.png" />
+    <meta property="og:url" content="/" />
+    <title>Basic HTML Website</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header class="flex">
+      <div class="container flex header__container flex-col">
+        <figure class="flex">
+          <img src="logo.png" alt="" />
+          <h3>Sumit Devs</h3>
+        </figure>
+        <nav class="header__nav">
+          <ul class="flex  ">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="article.html">Articles</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <button id="toggleBtn" class="header__btn "><i id="icon" class="fa-solid fa-moon"></i></button>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+        <section class="intro flex">
+          <h1>Full Stack Developer</h1>
+          <p>Hey i built responsive web design</p>
+        </section>
+        <div class="flex flex-wrapper container flex-col">
+        <section class="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>HTML Only Portfolio</li>
+            <li>Calculator</li>
+            <li>Quiz App</li>
+            <li>Countdown Timer</li>
+            <li>Product Upcoming Page</li>
+          </ul>
+        </section>
+        <section class="work-experience">
+          <h2>work Experience</h2>
+          <div class="flex">
+          <article>
+            <h3>roadmap.sh</h3>
+            <p>Solved all the frontened projects</p>
+            <a href="#">Visit my profile</a>
+          </article>
+          <article>
+            <h3>openSource Work</h3>
+            <p>
+              Contributed to 50 opensource projects.Made my own projects with
+              200 Github Starts
+            </p>
+            <a href="#">Visit my GitHub profile</a>
+          </article>
+          </div>
+        </section>
+        <section class="education">
+          <h2>Education</h2>
+          <p>
+            Graduated with 3.76 out of 4 cgpa.<br> Won Acme Hackathon.<br> Organized 30
+            sessions
+          </p>
+          <h3>Cources I took:</h3>
+          <ul>
+            <li>Object Oriented Programming</li>
+            <li>Data Structure and Algorithms</li>
+            <li>Web Engineering</li>
+            <li>Artificial Intelligence</li>
+            <li>Human Computer Interaction</li>
+            <li>Computer Graphics</li>
+            <li>Database Mangement Systems</li>
+            <li>Distributed Database Systems</li>
+            <li>Discret Mathmatics</li>
+          </ul>
+        </section>
+      </div>
+      <section class="reviews container">
+        <h2>Reviews from my Teacher</h2>
+        <div class="flex flex-col">
+        <article>
+          <p>
+            John doe was a brilliant student always stood out with his
+            assignments
+          </p>
+          <p>Jane Doe Assistant Professor</p>
+        </article>
+        <article>
+          <p>
+            John doe was a brilliant student always stood out with his
+            assignments
+          </p>
+          <p>Jane Doe Assistant Professor</p>
+        </article>
+        <article>
+          <p>
+            John doe was a brilliant student always stood out with his
+            assignments
+          </p>
+          <p>Jane Doe Assistant Professor</p>
+        </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <div class="flex container">
+            <p>&copy; all rights reserved 2025</p>
+        </div>
+    </footer>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

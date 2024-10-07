@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Seo Meta Tag -->
+    <meta
+      name="description"
+      content="A simple HTML only website with multiple pages for roadmap.sh frontend "
+    />
+    <meta name="keywords" content="frontend project, HTML, Roadmap.sh" />
+    <meta name="author" content="sumit Devs" />
+    <!-- Open Graph meta tag -->
+    <meta property="og:title" content="Basic HTML Website" />
+    <meta
+      property="og:description"
+      content="A simple HTML only website with multiple pages for roadmap.sh frontend"
+    />
+    <meta property="og:image" content="image.png" />
+    <meta property="og:url" content="/" />
+    <title>Basic HTML Website</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header class="flex">
+      <div class="container flex header__container flex-col">
+        <figure class="flex">
+          <img src="logo.png" alt="" />
+          <h3>Sumit Devs</h3>
+        </figure>
+        <nav class="header__nav">
+          <ul class="flex  ">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="article.html">Articles</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <button id="toggleBtn" class="header__btn "><i id="icon" class="fa-solid fa-moon"></i></button>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="article container">
+        <h1>Articles</h1>
+        <div class="article-content">
+          <article>
+            <h2><a href="artilce1.html">Understanding css flexbox</a></h2>
+            <p>
+              Learn how to create flexible and responsive layouts using CSS
+              Flexbox.
+            </p>
+          </article>
+          <article>
+            <h2><a href="artilce1.html">JavaScript ES6: The Game Changer</a></h2>
+            <p>
+              An overview of the key features introduced in JavaScript ES6 and how
+              they revolutionized coding.
+          </article>
+          <article>
+            <h2><a href="artilce1.html">A Guide to Web Accessibility</a></h2>
+            <p>
+              Discover the best practices to make your websites more accessible to
+              all users.
+            </p>
+          </article>
+          <article>
+            <h2><a href="artilce1.html">A Guide to Web 3.0 Development</a></h2>
+            <p>
+              Discover the best practices to make your websites more accessible to
+              all users.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+  <footer>
+      <div class="flex container">
+          <p>&copy; all rights reserved 2025</p>
+      </div>
+  </footer>
+  <script src="scripts/index.js"></script>
+  </body>
+</html>
